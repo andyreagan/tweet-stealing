@@ -1,6 +1,6 @@
-# steal tweets
+# download public user timeline
 #
-# usage: python steal.py andyreagan
+# usage: python user-timeline-download.py andyreagan
 
 from sys import argv
 import datetime
@@ -78,7 +78,3 @@ if __name__ == '__main__':
     # the indent=4 makes the json look nice
     json.dump(alltweets,f,indent=4)
     f.close()
-
-
-
-
